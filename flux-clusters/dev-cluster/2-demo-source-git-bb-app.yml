@@ -8,4 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: 2-demo
-  url: ssh://git@github.com/sidd-harth-2/bb-app-source
+  secretRef:
+    name: flux-system
+  url: ssh://git@github.com/chethankyt/block-buster

@@ -10,4 +10,4 @@ spec:
     branch: 2-demo
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/chethankyt/block-buster
+  url: ssh://git@github.com/chethankyt/bb-app-source
